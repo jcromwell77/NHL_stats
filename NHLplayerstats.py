@@ -26,6 +26,8 @@ def api_Call():
     jsonFile.write(jsonString)
     jsonFile.close()
 
+# API Call Function
+api_Call()
 
 # Filtered json columns
 df = pd.read_json(apiJsonFile)
