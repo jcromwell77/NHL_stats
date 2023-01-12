@@ -1,3 +1,5 @@
 # Ignore JSON and TXT files
 *.json
 *.txt
+Column_DataTypes.txt
+nhlPlayers~.json
