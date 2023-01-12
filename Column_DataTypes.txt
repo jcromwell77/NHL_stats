@@ -92,3 +92,7 @@
 ,Started VARCHAR(10)
 ,BenchPenaltyMinutes VARCHAR(10)
 ,GoaltendingOvertimeLosses VARCHAR(10)
+
+
+
+StatID, TeamID, PlayerID, SeasonType, Season, Name, Team, Position, GlobalTeamID, Games, Minutes, Seconds, Goals, Assists, ShotsOnGoal, PowerPlayGoals, ShortHandedGoals, EmptyNetGoals, PowerPlayAssists, ShortHandedAssists, HatTricks, ShootoutGoals, PlusMinus, PenaltyMinutes, Blocks, Hits, Takeaways, Giveaways, FaceoffsWon, FaceoffsLost, Shifts, GoaltendingMinutes, GoaltendingSeconds, GoaltendingShotsAgainst, GoaltendingGoalsAgainst, GoaltendingSaves, GoaltendingWins, GoaltendingLosses, GoaltendingShutouts, Started, BenchPenaltyMinutes, GoaltendingOvertimeLosses
