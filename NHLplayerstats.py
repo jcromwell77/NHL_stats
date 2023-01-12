@@ -27,12 +27,9 @@ def api_Call():
     jsonFile.write(jsonString)
     jsonFile.close()
 
-# API Call Function
+# Call api_Call Function
 api_Call()
 
-# Filtered json columns
-#df = pd.read_json(apiJsonFile)
-#print(df[["StatID","TeamID","PlayerID","SeasonType","Season","Name","Team","Position","GlobalTeamID","Games","Minutes","Seconds","Goals","Assists","ShotsOnGoal","PowerPlayGoals","ShortHandedGoals","EmptyNetGoals","PowerPlayAssists","ShortHandedAssists","HatTricks","ShootoutGoals","PlusMinus","PenaltyMinutes","Blocks","Hits","Takeaways","Giveaways","FaceoffsWon","FaceoffsLost","Shifts","GoaltendingMinutes","GoaltendingSeconds","GoaltendingShotsAgainst","GoaltendingGoalsAgainst","GoaltendingSaves","GoaltendingWins","GoaltendingLosses","GoaltendingShutouts","Started","BenchPenaltyMinutes","GoaltendingOvertimeLosses"]])
 
 # Connect to DB and load Staging
 try:
